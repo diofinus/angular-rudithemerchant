@@ -1,0 +1,11 @@
+<div class="ui container" style="padding-top: 100px; padding-bottom: 100px;">
+	<div *ngFor="let article of articles | async">
+	    <div class="font-abel">
+	    	<span class="article-title">{{article.title}}</span>
+	    	<br>
+	    	<span class="article-date">{{article.createdAt}}</span>
+    	</div>
+    	<hr align="left" width="75%">
+	    <div class="article-body" [innerHtml]="article.content"></div>
+	</div>
+</div>

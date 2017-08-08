@@ -1,0 +1,117 @@
+<!-- <h1>{{title}}</h1>
+<nav>
+	<a routerLink="/dashboard">Dashboard</a>
+	<a routerLink="/heroes">Heroes</a>
+</nav> -->
+<div class="pusher">
+  <div class="ui vertical masthead center aligned segment" style="padding: 0;">
+    <div id="navbar" class="ui fixed secondary pointing menu" style="border: none;">
+      <div class="ui container" style="padding: 25px 0 10px 0;">
+        <!-- <img class="logo" src="assets/images/logo.png" height="40px"> -->
+        <a routerLink="/" class="item font-abel white-item" style="border: none; padding: 0; font-size: 35px; line-height: 1;">
+          RUDItheMERCHANT
+        </a>
+        <div class="right menu">
+          <a class="ui item dropdown pointing font-abel white-item">
+          	TRAVEL
+          	<i class="dropdown icon"></i>
+				    <div class="menu">
+				      <div class="item">
+				      	<i class="dropdown icon"></i>
+					      <span class="text font-abel">ASIA</span>
+					      <div class="right menu">
+					        <div routerLink="/travel/indonesia/list" class="item font-abel" style="width: 100%;">INDONESIA</div>
+					        <div routerLink="/travel/laos/list" class="item font-abel" style="width: 100%;">LAOS</div>
+					        <div routerLink="/travel/thailand/list" class="item font-abel" style="width: 100%;">THAILAND</div>
+					        <div routerLink="/travel/malaysia/list" class="item font-abel" style="width: 100%;">MALAYSIA</div>
+					        <div routerLink="/travel/singapore/list" class="item font-abel" style="width: 100%;">SINGAPORE</div>
+					        <div routerLink="/travel/korea/list" class="item font-abel" style="width: 100%;">KOREA</div>
+					        <div routerLink="/travel/japan/list" class="item font-abel" style="width: 100%;">JAPAN</div>
+					        <div routerLink="/travel/china/list" class="item font-abel" style="width: 100%;">CHINA</div>
+					      </div>
+			      	</div>
+              <div class="item">
+                <i class="dropdown icon"></i>
+                <span class="text font-abel">MIDDLE EAST</span>
+                <div class="right menu">
+                  <div routerLink="/travel/iran/list" class="item font-abel" style="width: 100%;">IRAN</div>
+                </div>
+              </div>
+				      <div class="item font-abel">EUROPE</div>
+				    </div>
+        	</a>
+          <a routerLink="/404" class="item font-abel white-item">INTERVIEWS</a>
+          <a routerLink="/404" class="item font-abel white-item">SHOP</a>
+          <a routerLink="/404" class="item font-abel white-item">TOURS</a>
+          <a routerLink="/404" class="item font-abel white-item">GIVEAWAYS</a>
+          <a routerLink="/404" class="item font-abel white-item">ABOUT</a>
+          <a routerLink="/404" class="item font-abel white-item">FAQ</a>
+          <a routerLink="/404" class="item font-abel white-item">CONTACT</a>
+          <div class="ui category search item">
+            <div class="ui transparent icon input">
+              <input class="prompt" type="text" placeholder="SEARCH...">
+              <!-- <i class="search link icon item white-item"></i> -->
+            </div>
+            <div class="results"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <h1>Real Time Chat</h1>
+
+  <div *ngFor="let message of messages | async">
+    {{message.$value}}
+  </div>
+
+  <input type="text" #message placeholder="Your message..">
+
+  <button (click)="newMessage(message.value)">Send message</button> -->
+
+	<router-outlet></router-outlet>
+
+  <div class="ui vertical footer segment" style="border-top: 2px solid; padding-top: 50px;">
+    <div class="ui container">
+      <div class="ui stackable equal height stackable grid">
+        <div class="two wide column"></div>
+        <div class="six wide column">
+          <h2 class="ui header" style="font-family: 'Abel', sans-serif;">ABOUT ROBERT</h2>
+          <p class="font-satisfy">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum purus at turpis bibendum, vitae aliquet est consequat. Nulla condimentum consequat tincidunt. Praesent tristique odio ac est lacinia, sed sollicitudin magna porta. Aliquam in nulla suscipit, luctus justo eget, egestas magna. Pellentesque lacinia euismod sodales. Nunc quis pulvinar purus. Nullam vitae porta neque, id blandit sem. Donec imperdiet dolor libero, a ultrices libero dapibus at. Maecenas vitae convallis risus. Nullam volutpat dapibus facilisis. Phasellus eu urna dignissim, placerat sem et, commodo enim. Vivamus vel faucibus nibh, a finibus orci. Sed fringilla rutrum tortor a consequat. Vestibulum condimentum purus diam, pulvinar aliquam magna scelerisque laoreet. Mauris tempor venenatis sapien sit amet viverra.
+          </p>
+          <div class="ui mini images">
+            <a href="https://www.facebook.com/robert.rudini.7" target="_blank">
+              <img class="ui image" src="../assets/images/facebook.png">
+            </a>
+            <a href="https://twitter.com/rudiniway" target="_blank">
+              <img class="ui image" src="../assets/images/twitter.png">
+            </a>
+            <a href="https://www.instagram.com/rudiniway/" target="_blank">
+              <img class="ui image" src="../assets/images/instagram.png">
+            </a>
+          </div>
+          <p class="font-abel" style="font-weight: bold;">
+            © 2017 RUDINIWAY. ALL RIGHTS RESERVED.<br>DESIGN AND DEVELOPMENT BY DIO FINUS.
+          </p>
+        </div>
+        <div class="six wide center aligned column">
+          <h2 class="ui header" style="font-family: 'Abel', sans-serif;">CONTACT ME</h2>
+          <div class="ui form">
+            <div class="ui fluid input">
+              <input type="text" placeholder="Your Email Address">
+            </div>
+            <br>
+            <div class="field">
+              <textarea placeholder="Tell me something interesting"></textarea>
+            </div>
+            <button class="ui secondary basic button">
+              <i class="mail icon"></i>
+              Send
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+.article-title {
+	font-size: 24px;
+	cursor: pointer;
+}
+.article-date {
+	font-weight: bold;
+    color: darkgrey;
+}
+.article-body {
+	
+}

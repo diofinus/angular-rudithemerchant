@@ -1,0 +1,9 @@
+.not-found {
+	padding-top: 20%;
+	padding-bottom: 20%;
+	text-align: center;
+}
+
+.not-found-sub {
+	color: grey;
+}

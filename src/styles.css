@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+/* Master Styles */
+
+.font-abel {
+  font-family: 'Abel', sans-serif;
+}
+
+.font-amatic {
+  font-family: 'Amatic SC', cursive;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-satisfy {
+  font-family: 'Satisfy', cursive;
+}
